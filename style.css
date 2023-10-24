@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway&display=swap');
+
+:root{
+
+    --azul: #33A8DB;
+    --gradiente: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    --fundo: rgba(0, 0, 0, 1);
+    --cinza: rgba(37, 37, 37, 1);
+}
+body{
+
+    background-color: var(--fundo);
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+h1{
+
+    font-size: 2.5rem;
+    color: var(--azul);
+    padding: 0;
+}
+h2{
+
+    font-size: 2rem;
+    color: var(--azul);
+}
+.btn_cadastro{
+
+  color: var(--azul);
+  padding: 19px 91px 19px 91px;
+  margin-bottom: 100px;
+  border: solid 2px var(--azul);
+  font-size: 1.18rem;
+  font-weight: 300;
+  background-color: transparent;  
+    
+}
+
+.btn_cadastro:hover{
+
+    background-color: rgba(51, 168, 219, 0.06);
+}
+
+.text_default, a{
+
+    font-size: 1rem;
+    color: #FFF;
+    font-weight: 400px;
+    word-wrap: break-word;
+}
+
+a{
+    text-decoration: none;
+    color: var(--azul);
+}
+.alinhamento{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.header{
+
+    border-bottom: solid 2px var(--azul);    
+    background-image: url(./assets/images/banner.png);
+    background-color: rgba(51, 168, 219, 0.06);
+    background-blend-mode: overlay;
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header p{
+
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 20px 200px ;
+}
+
+.header img{
+
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.main{
+
+    padding: 50px 50px;
+    text-align: center;
+
+}
+.main div{
+
+    gap: 24px;
+}
+
+.main h2{
+
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    text-align: left;    
+}
+
+.main p{
+
+    margin-bottom: 50px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.main .btn_modulo{
+
+    padding: 16px;
+    background-color: var(--cinza);
+    border: solid 1px var(--azul);
+    color: #fff;
+    border-radius: 57px;
+    width: 80%;
+}
+
+
+.banner{
+
+    height: 363px;
+    background-image: url(./assets/images/woman-code.png);
+    background-attachment: fixed;    
+    background-size: cover;
+    display: flex;
+    flex-direction:row;
+    justify-content: start;
+    padding-top: 120px;
+    padding-left: 250px;
+    
+}
+
+.banner div span{
+
+    color: #FFF;
+    text-shadow: 3px 2px 0px #33A8DB;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+
+.banner_final{
+
+    padding: 80px 170px;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    text-align: center;
+}
+
+.banner_final p{
+
+    padding-top: 50px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;    
+
+}
+
+.footer{
+
+    border-top: solid 1px var(--azul);
+    padding: 39px;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
